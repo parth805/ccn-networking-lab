@@ -1,0 +1,42 @@
+
+
+## Step 1: Network Setup
+
+* Created three LAN networks connected through routers
+* Each LAN assigned different IP classes
+
+## Step 2: Device Configuration
+
+* Assigned IP addresses to all PCs and routers
+* Configured default gateways
+* Connected routers using serial DCE interfaces
+
+## Step 3: RIP Configuration
+
+RIP protocol was enabled on each router.
+
+Neighboring network addresses were added so routers could exchange routing information dynamically.
+
+## Step 4: Dynamic Route Exchange
+
+Routers automatically updated their routing tables through RIP advertisements.
+
+## Step 5: Verification
+
+* Ping tests performed successfully
+* Connectivity verified using Simple PDU
+
+## Result
+
+Communication between different LANs was established successfully using dynamic routing.
+
+## Key Concepts
+
+* RIP Protocol
+* Dynamic Routing
+* Routing Tables
+* Route Advertisement
+
+## Insight
+
+Unlike static routing, RIP automatically updates routing information, making it more scalable and easier to manage in larger networks.
